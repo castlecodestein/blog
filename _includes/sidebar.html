@@ -1,0 +1,29 @@
+<div class="sidebar">
+
+  <img src="{{ site.baseurl }}public/CzesioZdjecie.jpg" class="img-responsive img-circle" style="width: 150px; margin: 0 auto;" />
+  <div style="text-align: center; font-weight: bold; margin-top: 10px;">
+    Tomasz Krug
+  </div>
+  <div style="text-align: center; font-size: smaller;">
+    Java developer
+  </div>
+
+  <div class="container sidebar-sticky">
+
+    <div class="sidebar-about">
+      <h1>
+        <a href="{{ site.baseurl }}">
+          {{ site.title }}
+        </a>
+      </h1>
+      <p class="lead">{{ site.description }}</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+      <a class="sidebar-nav-item" href="http://edhendil.github.io">About</a>
+      <a class="sidebar-nav-item" href="{{ site.github.repo }}">Examples on GitHub</a>
+    </nav>
+
+  </div>
+</div>

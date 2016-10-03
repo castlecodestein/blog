@@ -1,0 +1,14 @@
+.img-circle {
+  border-radius: 50%;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.comments {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}

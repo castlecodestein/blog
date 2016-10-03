@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <span class="post-date">{{ page.date | date_to_string }}</span>
+  {{ content }}
+</div>
+
+<div>
+  <div style="float: left; width: 50%;">
+    {% if page.previous %}
+    
+      <h5>Previous post</h5>
+      <a href="{{ page.previous.url }}">
+      {{ page.previous.title }}</a><br/>
+      <small>{{ page.previous.date | date_to_string }}</small>
+    
+    {% endif %}
+
+  </div>
+  <div style="float: right; width: 50%; text-align: right;">
+    {% if page.next %}
+    
+      <h5>Next post</h5>
+      <a href="{{ page.next.url }}">
+      {{ page.next.title }}</a><br/>
+      <small>{{ page.next.date | date_to_string }}</small>
+    
+    {% endif %}
+  </div>
+</div>
+
+<div class="comments" style="clear: both;">
+  <h2>Comments</h2>
+  <section id="isso-thread"></section>
+</div>

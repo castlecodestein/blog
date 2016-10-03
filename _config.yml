@@ -1,0 +1,32 @@
+gems: [jekyll-paginate, jekyll-gist]
+
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+excerpt_separator: <!--more-->
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Castle Codestein
+tagline:          'On code and stuff'
+description:      'On code and stuff'
+baseurl:          /
+
+author:
+  name:           'Tomasz Krug'
+  url:            https://edhendil.github.io
+
+paginate:         10
+
+# Custom vars
+version:          1.0
+
+github:
+  repo:           https://github.com/castlecodestein
