@@ -13,13 +13,13 @@ blogger_id: tag:blogger.com,1999:blog-5263052209480207518.post-41396811353518793
 blogger_orig_url: http://www.castlecodestein.com/2014/08/massive-tanks.html
 ---
 
-<div style="text-align: center;"><a href="http://massivetanks.com/client/assets/sprites/logo.png"><img style="display: inline-block;" src="http://massivetanks.com/client/assets/sprites/logo.png" /></a></div> 
+<div style="text-align: center;"><a href="https://massivetanks.com/client/assets/sprites/logo.png"><img style="display: inline-block;" src="https://massivetanks.com/client/assets/sprites/logo.png" /></a></div> 
 
 Last year together with my friends we took part in a 10 hour long coding marathon organized by SII in all major cities of Poland. We decided to create a multiplayer 2D game inspired by Super Tank from NES. And it was a good choice as we managed to win the first prize in Poznań and the fourth place in the second stage of the contest - the internet poll for the best application.
 
 The source code is available on [GitHub](https://github.com/LetsCoders/MassiveTanks). It is not the version we completed in 10 hours but a heavily refactored one after a lot of bugfixes.
 
-[Try it out yourself!](http://massivetanks.com)
+[Try it out yourself!](https://massivetanks.com)
 
 The game server internally uses:
 * [Atmosphere](https://github.com/Atmosphere/atmosphere) framework (websocket communication)
