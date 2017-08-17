@@ -1,4 +1,4 @@
-gems: [jekyll-paginate, jekyll-gist]
+plugins: [jekyll-paginate, jekyll-gist, jekyll-analytics]
 
 # Dependencies
 markdown:         kramdown
@@ -30,3 +30,9 @@ version:          1.0
 
 github:
   repo:           https://github.com/castlecodestein
+
+# Analytics
+jekyll_analytics:
+  GoogleAnalytics:          # Add, if you want to track with Google Analytics
+    id: UA-54491798-1       # Required - replace with your tracking id
+    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
